@@ -1,0 +1,133 @@
+.Contanier {
+    padding: 0;
+    // margin-top: 6px;
+    background: #F1F1F1;
+    .top {
+        height: 107.5px;
+        overflow: hidden;
+        position: relative;
+        .shop_bk_img {
+            width: 100%;
+            position: absolute;
+            height: 100%;
+        }
+        .top_sbox {
+            position: relative;
+            width: 86%;
+            margin: 0 auto;
+            margin-top: 65px;
+            .top_search {
+                position: relative;
+                border-radius: 25px;
+                overflow: hidden;
+                margin-top: 7.5px;
+                line-height: 0;
+                .top_search_input {
+                    box-sizing: border-box;
+                    background-color: white;
+                    vertical-align: middle;
+                    line-height: 33px;
+                    width: 100%;
+                    height: 33px;
+                    border: none;
+                    padding-left: 31px;
+                    font-size: 12px;
+                }
+                .search_img {
+                    opacity: 1;
+                    position: absolute;
+                    top: 7.5px;
+                    width: 17px;
+                    left: 7.5px;
+                }
+                .search_btn {
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    right: 0;
+                    background: #f9c427;
+                    width: 60px;
+                    border-radius: 25px 0px 0px 25px;
+                    font-size: 13px;
+                    color: white;
+                    border: 0;
+                }
+            }
+        }
+    }
+    .main {
+        overflow: hidden;
+        .hot_nav {
+            line-height: 0;
+            background: white;
+            padding: 10px 7.5px;
+            border-bottom: 1px solid #ccc; 
+            img.hot_nav_icon {
+                opacity: 1;
+                position: relative;
+                top: 0.02rem;
+            }
+            span.hot_nav_name {
+                margin-left: 5px;
+            }
+        }
+        .hot_cont {
+            overflow: hidden;
+            position: relative;
+            height: 200px;
+            background: white;
+            .swiper-wrapper {
+                background: white;
+                width: 100%;
+                position: relative;
+                height: 100%;
+                z-index: 1;
+                display: flex;
+                transition-property: transform;
+                box-sizing: content-box;
+                .hot_ul {
+                    width: 320px;
+                    background: white;
+                    overflow: hidden;
+                    flex-shrink: 0;
+                    height: 100%;
+                    position: relative;
+                    .hot_li {
+                        float: left;
+                        width: 25%;
+                        text-align: center;
+                        margin-top: 2.5px;
+                        height: 100px;
+                        .li_bread {
+                            display: block;
+                            width: 75%;
+                            margin: 0 auto;
+                            margin-bottom: 5px;
+                            .hot_pic {
+                                width: 100%;
+                                height: 60px;
+                                overflow: hidden;
+                                img {
+                                    opacity: 1;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            .hot_name {
+                                color: #777777;
+                                text-align: center;
+                                line-height: 32.5px;
+                                display: -webkit-box;
+                                overflow: hidden;
+                                -webkit-line-clamp: 1;
+                                /* autoprefixer: ignore next */
+                                -webkit-box-orient: vertical;
+                                word-break: break-all;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

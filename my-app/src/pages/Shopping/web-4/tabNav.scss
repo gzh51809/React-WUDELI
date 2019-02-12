@@ -1,0 +1,40 @@
+.TabNav {
+    overflow: hidden;
+    height: 35px;
+    .nav_cont {
+        width: 100%;
+        overflow: hidden;
+        overflow-x: auto;
+        height: 35px;
+        ul.nav_ul {
+            // min-width: 990px;
+            overflow: hidden;
+            background: white;
+            padding: 2px 0;
+            height: 35px;
+            margin: 0px;
+            li.nav_li {
+                float: left;
+                width: 60px;
+                padding: 0 3px;
+                margin-bottom: 4px;
+                div.nav_card.active {
+                    border-bottom: 2px solid;
+                    color: #f4436d;
+                }
+                div.nav_card {
+                    width: 100%;
+                    padding: 3px 0;
+                    p.nav_name {
+                        line-height: 20px;
+                        text-align: center;
+                        font-size: 11px;
+                        margin-top: 2.5px;
+                        height: 20px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

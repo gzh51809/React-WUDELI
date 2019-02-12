@@ -1,0 +1,86 @@
+.GoodsShow {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 10px;
+    display: -webkit-box;
+    img.graphic_tit {
+        opacity: 1;
+        color: #222;
+        display: block;
+        max-width: 100%;
+        -webkit-text-fill-color: transparent;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        height: 16px;
+        margin-top: 7.5px;
+    }
+    p.graphic_name {
+        color: #999;
+        margin: 5px 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    a.graphic1_img img, 
+    a.graphic2_img img, 
+    a.graphic3_img img {
+        width: 100%;
+        height: 100%;
+    }
+    a.graphic1_img {
+        width: 98px;
+        height: 120px;
+        margin-top: 3px;
+        display: block;
+        img {
+            opacity: 1;
+        }
+    }
+    a.graphic2_img {
+        float: right;
+        width: 87px;
+        height: 65.7px;
+        margin-right: 2.5px;
+        padding-bottom: 2.5px;
+        display: block;
+    }
+    .left_cont {
+        width: 119.5px;
+        border-right: 1px solid #f1f1f1;
+        padding-left: 7.5px;
+        overflow: hidden;
+    }
+    .right_cont {
+        -webkit-box-flex: 1;
+        overflow: hidden;
+        .top_cont {
+            height: 70px;
+            border-bottom: 1px solid #F1F1F1;
+            padding-left: 7.5px;
+            .topLeft_cont {
+                float: left;
+            }
+        }
+        .bottom_cont {
+            overflow: hidden;
+            .botLeft_cont {
+                width: 50%;
+                float: left;
+                padding-left: 7.5px;
+                border-right: 1px solid #F1F1F1;
+                .graphic3_img {
+                    width: 76px;
+                    height: 64px;
+                    display: block;
+                }
+            }
+            .botRight_cont {
+                width: 50%;
+                float: right;
+                padding-left: 7.5px;
+            }
+        }
+    }
+}

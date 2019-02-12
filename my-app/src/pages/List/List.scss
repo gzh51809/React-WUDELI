@@ -1,0 +1,11 @@
+.list {
+    position: relative;
+    .brickTop {
+        height: 43px;
+        width: 100%;
+    }
+    .brickBot {
+        display: none;
+        height: 70px;
+    }
+}

@@ -1,0 +1,21 @@
+.HeadBar {
+    height: 45px;
+    width: 100%;
+    background: white;
+    border: 1px solid #e2e2e2;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    a>.head-return-img {
+        float: left;
+        height: 22px;
+        margin: 10px 0 0 10px;
+        box-sizing: border-box;
+        position: absolute;
+    }
+    .head-title-text {
+        text-align: center;
+        line-height: 45px;
+        font-size: 18px;
+    }
+}

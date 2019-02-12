@@ -1,0 +1,79 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 90;
+    left: 0;
+    height: 43px;
+    overflow: hidden;
+    background: white;
+    // font-size: 12px;
+    vertical-align: baseline;
+    border-top: 1px solid #eaeaea;
+    .foot-ul {
+        width: 100%;
+        overflow: hidden;
+        // font-size: 12px;
+        vertical-align: baseline;
+        outline: 0;
+        background: transparent;
+        a.active span.foot-sbox p.foot-name{  
+            color: #f4436d;       
+        }
+        a.active span.foot-sbox i.icon-home {
+            background: url(../../assets/img/footer/active_home.png) 0% 0% / cover;
+        }
+        a.active span.foot-sbox i.icon-money {
+            background: url(../../assets/img/footer/active_money.png) 0% 0% / cover;
+        }
+        a.active span.foot-sbox i.icon-rebate {
+            background: url(../../assets/img/footer/active_rebate.png) 0% 0% / cover;
+        }
+        a.active span.foot-sbox i.icon-cart {
+            background: url(../../assets/img/footer/active_cart.png) 0% 0% / cover;
+        }
+        a.active span.foot-sbox i.icon-mine {
+            background: url(../../assets/img/footer/mine.png) 0% 0% / cover;
+        }
+        .li {
+            float: left;
+            width: 20%;
+            // span.foot-sbox.col>p.foot-name{
+            //     color: #f4436d;
+            // }
+            span.foot-sbox {
+                overflow: hidden;
+                position: relative;
+                display: block;
+                p.foot-name {
+                    color: #333;
+                    font-size: 12px;
+                    text-align: center;
+                }
+                i.foot-icon  {
+                    display: block;
+                    height: 16px;
+                    width: 16px;
+                    margin: 0 auto;
+                    margin-top: 6px;
+                    margin-bottom: 2.5px;
+                }
+                i.icon-home {
+                    background: url(../../assets/img/footer/home.png) 0% 0% / cover;
+                }
+                i.icon-money {
+                    background: url(../../assets/img/footer/money.png) 0% 0% / cover;
+                }
+                i.icon-rebate  {
+                    background: url(../../assets/img/footer/rebate.png) 0% 0% / cover;
+                }
+                i.icon-cart {
+                    background: url(../../assets/img/footer/cart.png) 0% 0% / cover;
+                }
+                i.icon-mine {
+                    background: url(../../assets/img/footer/mine.png) 0% 0% / cover;
+                }
+            }
+        }
+    }
+}

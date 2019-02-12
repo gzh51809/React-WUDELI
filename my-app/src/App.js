@@ -1,26 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Component } from 'react'
+import './App.scss'
+import {HashRouter,Route,Switch} from 'react-router-dom'
+// import {Provider} from 'react-redux'
+import Main from './pages'
+// import axios from 'axios';	
+//把axios写入Vue的原型对象，方便后面调用
+// Vue.prototype.$axios = axios;
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      // <Provider>
+        <HashRouter>
+          <Switch>
+            <Route path="/" exact component={Main}/>
+            <Route path='/home' component={Main}/>
+            <Route component={Main}/>
+          </Switch>
+        </HashRouter>
+      // </Provider>
     );
   }
 }

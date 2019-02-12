@@ -1,0 +1,25 @@
+.Mall-1, .Mall-2 {
+    width: 100%;
+    background: #fff;
+    // text-align: center;
+    a {
+        margin-left: 4px;
+    }
+}
+
+.Mall-1 {
+    a>img {
+        width: 48%;
+        opacity: 1;
+        transform: translateY(-1px);
+    }
+    margin-bottom: 4px;
+}
+
+.Mall-2 {
+    a>img {
+        width: 32%;
+        opacity: 1;
+        transform: translateY(-1px);
+    }
+}

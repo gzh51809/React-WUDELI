@@ -1,0 +1,230 @@
+.Tab {
+    overflow: hidden;
+    margin-top: 7.5px;
+    background: white;
+    width: 100%;
+    margin-bottom: 1000px;
+    .ceilTop {
+        display: none;
+        height: 35px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .ceilTop.show {
+        display: block;
+    }
+    .ceil.fixed {
+        position: fixed;
+        top: 42.5px;
+        left: 0;
+        background-color: #fff;
+        z-index: 99;
+    }
+    .ceil {
+        overflow: hidden;
+        width: 320px;
+        .ant-tabs-bar {
+            margin: 0;
+        }
+        .ant-tabs-nav {
+            width: 100%;
+            div {
+                .ant-tabs-tab-active {
+                    color: #f4436d;
+                }
+                .ant-tabs-tab {
+                    margin: 0;
+                    width: 33.3333333%;
+                    text-align: center;
+                }
+            }
+            .ant-tabs-ink-bar {
+                background-color: #f4436d;
+            }
+        }
+        .tab_head {
+            width: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+            position: relative;
+            color: #666666;
+        }
+        .tab_nav {
+            overflow: hidden;
+            height: 35px;
+            .nav_cont {
+                width: 100%;
+                overflow: hidden;
+                overflow-x: auto;
+                height: 35px;
+                ul.nav_ul {
+                    // min-width: 990px;
+                    overflow: hidden;
+                    background: white;
+                    padding: 2px 0;
+                    height: 35px;
+                    margin: 0px;
+                    li.nav_li {
+                        float: left;
+                        width: 55px;
+                        padding: 0 3px;
+                        margin-bottom: 4px;
+                        div.nav_card.active {
+                            border-bottom: 2px solid;
+                            color: #f4436d;
+                        }
+                        div.nav_card {
+                            width: 100%;
+                            padding: 3px 0;
+                            p.nav_name {
+                                line-height: 20px;
+                                text-align: center;
+                                font-size: 11px;
+                                margin-top: 2.5px;
+                                height: 20px;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .tab_bot {
+            width: 100%;
+            overflow: hidden;
+            border-bottom: 1px solid #f1f1f1;
+            border-top: 1px solid #f1f1f1;
+            .bot_item {
+                width: 28%;
+                text-align: center;
+                float: left;
+                line-height: 32.5px;
+                height: 32.5px;
+                color: #666666;
+                span.active {
+                    color: #f4436d;
+                }
+            }
+            .bot_Sitem {
+                width: 10%;
+                text-align: center;
+                float: left;
+                line-height: 32.5px;
+                height: 32.5px;
+                color: #666666;
+                img {
+                    width: 100%;
+                    opacity: 1;
+                }
+            }
+        }
+
+    }
+    .tab_goodsList {
+        width: 100%;
+        ul.list_ul {
+            overflow: hidden;
+            background: white;
+            width: 100%;
+            li.list_li {
+                display: -webkit-box;
+                width: 100%;
+                overflow: hidden;
+                border-bottom: 1px solid #f1f1f1;
+                a.goods_pic {
+                    display: block;
+                    width: 100px;
+                    height: 100px;
+                    overflow: hidden;
+                    padding: 5px;
+                    box-sizing: border-box;
+                    img.goods_img {
+                        opacity: 1;
+                        width: 100%;
+                    }
+                }
+                div.goods_inf {
+                    -webkit-box-flex: 1;
+                    padding: 5px;
+                    padding-left: 2.5px;
+                    position: relative;
+                    div.inf_item:first-child {
+                        display: -webkit-box;
+                        overflow: hidden;
+                        -webkit-line-clamp: 1;
+                        /* autoprefixer: ignore next */
+                        -webkit-box-orient: vertical;
+                        word-break: break-all;
+                        span {
+                            vertical-align: middle;
+                        }
+                    }
+                    div.inf_item {
+                        overflow: hidden;
+                        line-height: 17px;
+                        margin-top: 5px;
+                        position: relative;
+                        p.goods_name {
+                            img.ditch_icon {
+                                opacity: 1;
+                                height: 12px;
+                                margin-top: 2.5px;
+                            }
+                        }
+                        .quan {
+                            height: 17px;
+                        }
+                        .quan.on {
+                            display: block;
+                            img {
+                                opacity: 1;
+                                width: 49%;
+                                margin-left: -43px;
+                                position: absolute;
+                                left: 20%;
+                                top: 0;
+                                height: 98%;
+                            }
+                            .fanli_font {
+                                position: absolute;
+                                margin-left: -43px;
+                                left: 23%;
+                                top: 0;
+                                font-size: 10px;
+                                line-height: 15px;
+                            }
+                        }
+                    }
+                    div.item_sale {
+                        float: left;
+                        .sale_text {
+                            display: block;
+                            overflow: hidden;
+                            margin-bottom: 3px;
+                            .price_font {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    div.cost_price {
+                        clear: both;
+                    }
+                    div.hot_sale {
+                        float: right;
+                        text-align: center;
+                        margin-bottom: 6px;
+                        img.hot_img {
+                            opacity: 1;
+                            width: 12.5px;
+                            display: block;
+                            margin-top: 3px;
+                            float: left;
+                        }
+                        span.hot_text {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

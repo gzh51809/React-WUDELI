@@ -1,0 +1,14 @@
+.Feature {
+    overflow: hidden;
+    display: block;
+    margin-bottom: 2px;
+    .adver_box {
+        a {
+            display: block;
+            img {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+    }
+}
